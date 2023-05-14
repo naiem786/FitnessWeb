@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Login Page</title>
+
+		<!-- CSS Global Compulsory -->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!-- CSS Header and Footer -->
+		<link rel="stylesheet" href="assets/css/header.css">
+		<link rel="stylesheet" href="assets/css/footer.css">
+
+		<!-- CSS Implementing Plugins -->
+		<link rel="stylesheet" href="assets/plugins/line-icons-pro/styles.css">
+		<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+		<!-- CSS Customization -->
+		<link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body>
+<div class="container-fluid "        style="background-image: url('assets/img/bg/bg3.jpg');height: 130vh;"> 
+  	<div class="wrapper" >
+	<!--=== Header v1 ===-->
+	<div class="header-v1">
+	<!-- Topbar -->
+	<div class="topbar-v1">
+	<div class="container-fluid" style="background-image: url('assets/img/bg/bg3.jpg');height: 5vh;">
+	<div class="row">
+	<div class="col-md-6">
+		<ul class="list-inline top-v1-contacts">
+			<li>
+			<i class="fa fa-envelope"></i> <a href="mailto: naiemshaikh787@gmail.com"> <b>Email: naiemshaikh787@gmail.com</b></a> 
+			</li>
+			<li>
+			<i class="fa fa-phone"></i>Contact no : <a href="tel:9325538129" ><b>9325538129</b></a>
+			</li>
+			</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+				<!-- Navbar -->
+				<div class="navbar mega-menu" role="navigation">
+				<div class="container-fluid"style="
+      
+            background-color:	black;
+      
+        ">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="res-container">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+			<div class="navbar-brand">
+				<a href="index.html">
+				<img src="assets/img/logo/running.png" width="60" height="45" alt="Logo">
+				</a>
+			</div>
+				</div ><!--/end responsive container-->
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-responsive-collapse">
+				<div class="res-container">
+				<ul class="nav navbar-nav">
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+
+
+				
+
+				<!-- Home  -->
+				<li class="mega-menu-fullwidth">
+					<a href="index.html" style="
+						 
+						margin: 2px;
+						color:aliceblue;
+					  " >
+					<b>HOME</b>
+					</a>
+	
+	
+					<!-- Contact Us -->
+					<li class="mega-menu-fullwidth">
+					<a href="calculate.html" style="
+					 
+					margin: 2px;
+					color:aliceblue;
+				  " >
+					<b>CALCULATE</b>
+					</a>	
+					</li>
+					<!-- End Contact us -->
+	
+					<!-- Registration -->
+					<li class="mega-menu-fullwidth">
+					<a href="about.html"style="
+					 
+					margin: 2px;
+					color:aliceblue;
+				  " >
+					<b>ABOUT</b>
+					</a>	
+					</li>
+					<!-- End registration -->
+	
+					<!-- login -->
+					<li class="mega-menu-fullwidth">
+					<a href="loginPage.html"style="
+					 
+					margin: 2px;
+					color:aliceblue;
+				  " >
+					<b>LOGIN</b>
+					</a>	
+					</li>
+					<!-- End login -->
+	
+					<!-- Appointment -->
+					<li class="mega-menu-fullwidth">
+					<a href="Signup.html"style="
+					 
+					margin: 2px;
+					color:aliceblue;
+				  " >
+					<b>SIGNUP</b>
+					</a>
+	
+					</li>
+					<!-- End Appointment -->
+		  
+					</ul>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+				<!-- End Navbar -->
+
+	<div style="text-align: center; margin-top: 50px;">
+	<h2>LOGIN</h2>
+	</div>
+	<!--  title  -->
+
+
+					<!--=== Content Part ===-->
+					<div class="container content">
+					<div class="row">
+					<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+					<form class="reg-page">
+					<div class="reg-header">
+					<h2>Login to your account</h2>
+					</div>
+
+					<div class="input-group " style="margin-bottom: 20px;">
+					<span class="input-group-addon"><i class="fa fa-user"></i></span>
+					<input type="Email" name="userid" placeholder="Email Address" class="form-control" required="">
+					</div>
+					<div class="input-group " style="margin-bottom: 20px;">
+					<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+					<input type="password" name="usrpsw" placeholder="Password" class="form-control" required="">
+					</div>
+
+					<div class="row">
+					<div class="col-md-6 checkbox">
+					<label><input type="checkbox"> Stay signed in</label>
+					</div>
+					<div class="col-md-6">
+					<button class="btn-u pull-right" type="submit" onclick="userlogin(form)">Login</button>
+					</div>
+					</div>
+
+					<hr>
+
+					<h4>Forget your Password ?</h4>
+					<p>no worries, <a class="color-green" href="#">click here</a> to reset your password.</p>
+					</form>
+					</div>
+					</div><!--/row-->
+					</div><!--/container-->
+					<!--=== End Content Part ===-->
+					<div class="footer-v1">
+						<div class="footer">
+						<div class="container">
+						<div class="row">
+						<!-- About -->
+						<div class="col-md-3 " style="margin-bottom: 40px;">
+						<a href="index.html"><img id="logo-footer" class="footer-logo" src="assets/img/logo/unity_white.jpg" alt=""></a>
+						<p>This is just a starting or you can say a dummy project , further more changes and updates are to be made </p>
+						<p>This project was made for learning purpose and it was quite a nice experience working with css html and bootstrap, specially bootstrap documentations they helped a lot :)</p>
+						</div><!--/col-md-3-->
+						<!-- End About -->
+				
+						<div class="col-md-3 " style="margin-bottom: 40px;">
+							<div class="headline"><h2>You can find me at</h2></div>
+							<ul class="list-unstyled link-list">
+							<li><a href="https://www.linkedin.com/in/naiem-shaikh-32a885243/"target="_main">Linkedin</a><i class="fa fa-angle-right"></i></li>
+							<li><a href="https://www.instagram.com/what_can_be_the_username/" target="_main">Instagram</a><i class="fa fa-angle-right"></i></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100079001588026&mibextid=ZbWKwL"target="_main">facebook</a><i class="fa fa-angle-right"></i></li>
+							</ul>
+							</div><!--/col-md-3-->
+							<!-- End Link List -->
+					
+				
+						<!-- Link List -->
+						<div class="col-md-3 map-img " style="margin-bottom: 40px;">
+							<div class="headline"><h2>Studying at </h2></div>
+							<address class="" style="margin-bottom: 40px;">
+							<a href="https://admissions.mitwpu.edu.in/?utm_source=google&utm_medium=search-srv&utm_campaign=brand&gclid=CjwKCAjwue6hBhBVEiwA9YTx8LGzsLh4Ee0LG9W9PsclIEgDTSRpNFEZm1TByZftuXfs_tdpiTrechoC8cUQAvD_BwE"target="_main">Mit WPU</a> <br />
+							Kothrud,Pune<br />
+							 <br />
+							Email:admissions@mitwpu.edu.in
+							</address>
+							</div><!--/col-md-3-->
+						<!-- End Link List -->
+				
+						<!-- Address -->
+						<div class="col-md-3 map-img " style="margin-bottom: 40px;">
+						<div class="headline"><h2>Project made <small>under the guidance of </small></h2></div>
+						<address class="" style="margin-bottom: 40px;">
+						Sagar Kulkarni Sir <br />
+						<a href="https://www.linkedin.com/in/sagarvkulkarni/"target="_main">Linkedin</a><br />
+						 <br />
+						
+						</address>
+						</div><!--/col-md-3-->
+						<!-- End Address -->
+						</div>
+						</div>
+						</div><!--/footer-->
+				
+						<div class="copyright">
+						<div class="container">
+						<div class="row">
+						<div class="col-md-6">
+						<p>
+						Thank you for visiting
+						
+						</p>
+						</div>
+
+
+<!-- Login Javascript -->
+<script type="text/javascript" src="assets/plugins/jquery/validation.js"></script>
+  </div>
+</body>
+</html>
